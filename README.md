@@ -1,7 +1,5 @@
 # Nieoficjalny Szablon Typst dla WEII Politechniki Lubelskiej
 
-!!! Opis wygenerowany za pomocą AI !!!
-
 Niniejsze repozytorium zawiera nieoficjalny szablon przygotowany w systemie składu tekstu **Typst**, przeznaczony do pisania prac dyplomowych (inżynierskich i magisterskich) na Wydziale Elektrotechniki i Informatyki Politechniki Lubelskiej.
 
 > [!CAUTION]
