@@ -34,6 +34,9 @@
   justify: true,
 )
 
+#set enum(numbering: "1.1.", full: true) // numerowanie list
+#set math.equation(numbering: "(1)") //numerowanie wzorów
+
 // Ustawia rozmiar czcionki dla H1 na 1x rozmiaru bazowego
 #show heading.where(level: 1): set text(size: 1em)
 
@@ -53,6 +56,7 @@
   above: 2em, // Odstęp od akapitu PO WYŻ E J
   below: 0em    // Odstęp od akapitu P O N I Ż E J
 )
+
 
 //podpis tabeli na górze
 #show figure.where(
@@ -74,6 +78,20 @@
 #pagebreak()
 #include "rozdzialy/04_metody_badawcze.typ"
 
+// ============ Dołączenia spisu rysunków i tabel jeśli potrzebne ==================
+#heading(numbering: none)[Spis rysunków (jeśli potrzebne)]
+#outline(
+  title: none,
+  target: figure.where(kind: image),
+)
+
+#linebreak()
+
+#heading(numbering: none)[Spis tabel (jeśli potrzebne)]
+#outline(
+  title: none,
+  target: figure.where(kind: table),
+)
 
 
 // ============ Bibliografia ===========================

@@ -19,12 +19,12 @@
 
 #text(
   size: 12pt,
-  "na kierunku Informatyka"
+  "na kierunku ... (kierunek)"
 )
 
 #text(
   size: 12pt,
-  "w bloku dyplomowania Bezpieczeństwo aplikacji, systemów i sieci komputerowych "
+  "w bloku dyplomowania ... (specjalizacja)"
 )
 
 #v(2em)
