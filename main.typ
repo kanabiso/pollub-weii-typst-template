@@ -57,6 +57,9 @@
   below: 0em    // Odstęp od akapitu P O N I Ż E J
 )
 
+// wcięcie list i wypunktowań
+#set enum(indent: 2em)
+#set list(indent: 2em)
 
 //podpis tabeli na górze
 #show figure.where(
